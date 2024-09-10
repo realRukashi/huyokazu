@@ -1,8 +1,5 @@
 import streamlit as st
-
 from streamlit.components.v1 import html
-
-
 
 def open_page(url):
     open_script= """
@@ -12,4 +9,4 @@ def open_page(url):
     """ % (url)
     html(open_script)
 
-st.button('My instagram', on_click = open_page, args=('https://www.instagram.com/ng_thenkhyy/',))
+st.button('Open link', on_click=open_page, args=('https://streamlit.io',))
