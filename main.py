@@ -5,23 +5,12 @@ import pandas as pd
 
 st.set_page_config(layout="wide")
 
-page_bg_img = '''
-<style>
-body {
-background-image: url("https://z-p4-instagram.fsgn7-2.fna.fbcdn.net/v/t39.30808-6/453923086_18038822134974117_3031235235791238446_n.jpg?stp=dst-jpg_e35&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi44OTB4MTExMy5zZHIuZjMwODA4LmRlZmF1bHRfaW1hZ2UifQ&_nc_ht=z-p4-instagram.fsgn7-2.fna.fbcdn.net&_nc_cat=109&_nc_ohc=8hKBuV7U1qoQ7kNvgH_J37J&_nc_gid=f675bd80169e443187867337012af1bf&edm=AP4sbd4AAAAA&ccb=7-5&ig_cache_key=MzQyNjE5NzM1ODM2NTE5ODM0MA%3D%3D.3-ccb7-5&oh=00_AYBtO6oiltE_2KL5ZiQ9dE5tDsycWMEU0mAIEeZDJ8kgcQ&oe=66EF4A0E&_nc_sid=7a9f4b");
-background-size: cover;
-}
-</style>
-'''
-
-st.markdown(page_bg_img, unsafe_allow_html=True)
-
 st.markdown(
 """
 <style>
 .big-font 
 {
-    font-size:25px !important;
+    font-size:20px !important;
 }
 </style>
 """, unsafe_allow_html=True)
@@ -30,12 +19,14 @@ st.markdown('<p class="big-font">Xin chào, mình là Thanh Huy, sinh viên chư
 
 st.write(''); st.write(''); st.write('')
 
-nt1, nt2 = st.columns([1, 2])
+#nt1, nt2 = st.columns([1, 2])
 
-with nt1:
-    st.write('')
-with nt2:
-    st.write("Dưới đây các nền tải mạng xã hội của mình:")
+#with nt1:
+    #st.write('')
+#with nt2:
+
+st.write("Dưới đây các nền tải mạng xã hội của mình:")
+st.write('')
 
 ig, fb, tk, th, lk, wc = st.columns([1, 1, 1, 1, 1, 1])
 
@@ -58,3 +49,31 @@ with wc:
     st.link_button('Wechat', 'https://scontent.xx.fbcdn.net/v/t1.15752-9/459074749_835860308751555_8864477067973937065_n.jpg?stp=dst-jpg_s206x206&_nc_cat=100&ccb=1-7&_nc_sid=0024fc&_nc_eui2=AeELgTH1dodMdI46ZrsOEXJM8kdRVyN987PyR1FXI33zs58v4BNsMn7xynG1dYlHW_pXKSfYwwORdUMuAbYE1jfR&_nc_ohc=258uJICIcfMQ7kNvgHBDfCO&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&_nc_gid=A_EN2G8etr2ErX1VbL9kTOQ&oh=03_Q7cD1QEUDdqz9nes_8ndKHycB8yOqWCctBGP0FsRRsLJDfagQg&oe=6710FEAD')
 
 st.write(''); st.write(''); st.write('')
+
+#nt3, nt4 = st.columns([1, 1.7])
+
+#with nt3:
+    #st.write('')
+#with nt4:
+st.write('Dưới đây là các OJ của mình:')
+st.write('')
+
+nbk, lqd, cla, vnoj, cf, lc = st.columns([1, 1, 1, 1, 1, 1])
+
+with nbk:
+    st.link_button('nbkoj', 'https://nbk.homes/user')
+
+with lqd:
+    st.link_button('lqdoj', 'https://lqdoj.edu.vn/user/OKAZU')
+
+with cla:
+    st.link_button('claoj', 'https://claoj.edu.vn/user/KAZU')
+
+with vnoj:
+    st.link_button('vnoi', 'https://oj.vnoi.info/user/OSKAZU')
+
+with cf:
+    st.link_button('codeforces', 'https://codeforces.com/profile/OKAZU')
+
+with lc:
+    st.link_button('leetcode', 'https://leetcode.com/u/OKAZU/')
