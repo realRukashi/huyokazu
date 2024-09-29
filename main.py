@@ -3,7 +3,36 @@ import time
 import numpy as np
 import pandas as pd
 
-st.set_page_config(layout="wide")
+#st.set_page_config(layout="wide")
+
+page_bg_img = f"""
+<style>
+[data-testid="stAppViewContainer"] > .main {{
+background-image: url("https://cdn.pixabay.com/photo/2016/11/18/22/58/stars-1837306_640.jpg");
+background-size: 100%;
+background-position: top left;
+background-repeat: no-repeat;
+background-attachment: local;
+}}
+
+[data-testid="stSidebar"] > div:first-child {{
+
+background-position: center; 
+background-repeat: no-repeat;
+background-attachment: fixed;
+}}
+
+[data-testid="stHeader"] {{
+background: rgba(0,0,0,0);
+}}
+
+[data-testid="stToolbar"] {{
+right: 2rem;
+}}
+</style>
+"""
+
+st.markdown(page_bg_img, unsafe_allow_html=True)
 
 st.markdown(
 """
