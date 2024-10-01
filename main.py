@@ -44,7 +44,7 @@ st.markdown(
 </style>
 """, unsafe_allow_html=True)
 
-st.markdown('<p class="big-font">Xin chào, mình là Thanh Huy, cực học sinh khóa 20 trường THPT chuyên Nguyễn Bỉnh Khiêm, Quảng Nam và hiện tại mình là sinh viên lớp CNTN khoa CNTT của HCMUS.</p>', unsafe_allow_html=True)
+st.markdown('<p class="big-font">Xin chào, mình là Thanh Huy, cựu học sinh khóa 20 trường THPT chuyên Nguyễn Bỉnh Khiêm, Quảng Nam và hiện tại mình là sinh viên lớp CNTN khoa CNTT của HCMUS.</p>', unsafe_allow_html=True)
 
 st.write(''); st.write(''); st.write('')
 
