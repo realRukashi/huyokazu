@@ -9,8 +9,8 @@ page_bg_img = f"""
 <style>
 [data-testid="stAppViewContainer"] > .main {{
 background-image: url("https://cdn.pixabay.com/photo/2016/11/18/22/58/stars-1837306_640.jpg");
-background-size: 100%;
-background-position: top left;
+background-size: 65%;   
+background-position: top center;
 background-repeat: no-repeat;
 background-attachment: local;
 }}
@@ -54,7 +54,7 @@ st.write(''); st.write(''); st.write('')
     #st.write('')
 #with nt2:
 
-st.write("Dưới đây các nền tải mạng xã hội của mình:")
+st.write("Below are my social media platforms:")
 st.write('')
 
 ig, fb, tk, th, lk, wc = st.columns([1, 1, 1, 1, 1, 1])
@@ -84,7 +84,7 @@ st.write(''); st.write(''); st.write('')
 #with nt3:
     #st.write('')
 #with nt4:
-st.write('Dưới đây là các OJ của mình:')
+st.write('Below are my online judges (OJ) accounts:')
 st.write('')
 
 nbk, lqd, cla, vnoj, cf, lc = st.columns([1, 1, 1, 1, 1, 1])
