@@ -17,7 +17,7 @@ with col1:
 with col2:
     #st.markdown('<p class="big-font">Nguyễn Thanh Huy</p>', unsafe_allow_html=True)
     #st.title("Nguyễn Thanh Huy", anchor = False)
-    original_title = '<p style="font-family:Courier; color:Black; font-size: 30px;">Nguyễn Thanh Huy</p>'
-    original_title2 = '<p style="font-family:Courier; color:Black; font-size: 15px;">study at Bachelor Talent of Computer Science - HCMUS</p>'
+    original_title = '<p style="font-family:Courier; color:Pink; font-size: 30px;">Nguyễn Thanh Huy</p>'
+    original_title2 = '<p style="font-family:Courier; color:Pink; font-size: 15px;">study at Bachelor Talent of Computer Science - HCMUS</p>'
     st.markdown(original_title, unsafe_allow_html=True)
     st.markdown(original_title2, unsafe_allow_html=True)
