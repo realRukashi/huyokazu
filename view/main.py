@@ -13,7 +13,7 @@ st.markdown(
 col1, col2 = st.columns(2, gap = "small", vertical_alignment = "center")
 
 with col1:
-    st.image("./img/main1.jpg", width = 250);
+    st.image("./img/main1.jpg", width = 350);
 with col2:
     #st.markdown('<p class="big-font">Nguyễn Thanh Huy</p>', unsafe_allow_html=True)
     #st.title("Nguyễn Thanh Huy", anchor = False)
