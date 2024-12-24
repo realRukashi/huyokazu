@@ -15,7 +15,7 @@ x = df[["X1 transaction date", "X2 house age", "X3 distance to the nearest MRT s
 y = df["Y house price of unit area"]
 
 # Chia dữ liệu thành tập huấn luyện và kiểm tra
-X_train, X_test, y_train, y_test = train_test_split(x, y, test_size = 0.2, random_state = 42)
+X_train, X_test, y_train, y_test = train_test_split(x, y, test_size = 0.1, random_state = 42)
 
 # Chuẩn hóa dữ liệu
 scaler = StandardScaler()
